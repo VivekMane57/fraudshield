@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+*.log
+
+# Docker
+*.pid
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
