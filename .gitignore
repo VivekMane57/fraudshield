@@ -1,21 +1,20 @@
 # Python
-__pycache__/
-*.pyc
 venv/
+__pycache__/
+
+# Node
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Env / secrets
 .env
+*.env
+api/.env
+frontend/.env
+frontend/.env.local
 
-# Node / React
-node_modules/
-dist/
-build/
-*.log
-
-# Docker
-*.pid
-
-# VSCode
+# Editor
 .vscode/
-
-# OS
+.idea/
 .DS_Store
-Thumbs.db
